@@ -4,9 +4,9 @@ using System.Text;
 
 namespace BasicCoreProblems
 {
-    public class PowerOf2
+    public class PowerOfTwo
     {
-        public void Power()
+        public void square()
         {
             Console.WriteLine("Enter the power value");
             int exponent = Convert.ToInt32(Console.ReadLine());

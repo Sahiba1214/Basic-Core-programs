@@ -13,10 +13,4 @@ namespace BasicCoreProblems
             double harmonicSum = 0;
             for (double i = 1; i <= num; i++)
             {
-                Console.WriteLine("1/" + i + "=" + (1 / i));
-                harmonicSum += (1 / i);
-            }
-            Console.WriteLine("The Sum of harmonic number is :" + harmonicSum);
-        }
-    }
-}
+                C
