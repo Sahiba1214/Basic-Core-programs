@@ -6,7 +6,7 @@ namespace BasicCoreProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Program number which is to be executed \n 1. Flip Coin \n 2. Leap year \n 3. Power Of Two \n 4. Harmonic Number \n 5. Factors \n 6. Quotient Remainders \n 7. Swap Two Num \n 8. Even Or Odd Nums \n 9. Vowel Or Consonant \n 10. Exit");
+            Console.WriteLine("Enter the Program number which is to be executed \n 1. Flip Coin \n 2. Leap year \n 3. Power Of Two \n 4. Harmonic Number \n 5. Factors \n 6. Quotient Remainders \n 7. Swap Two Num \n 8. Even Or Odd Nums \n 9. Vowel Or Consonant \n 10. Largest Number \n 10. Exit");
             int option = Convert.ToInt32(Console.ReadLine());
             bool flag = true;
             while (flag)
@@ -50,6 +50,10 @@ namespace BasicCoreProblems
                         letter.Alphabet();
                         break;
                     case 10:
+                        LargestNumber max = new LargestNumber();
+                        max.Largest();
+                        break;
+                    case 11:
                         flag = false;
                         break;
 
